@@ -1,3 +1,5 @@
+@import url(./_type/header__lang-link_type_active.css);
+
 .header__lang-link {
   text-decoration: none;
   font-size: 24px;
@@ -14,14 +16,6 @@
 
 .header__lang-link:hover {
   opacity: 0.8;
-}
-
-#ru:target {
-  border-bottom: 2px #fff solid;
-}
-
-#en:target {
-  border-bottom: 2px #fff solid;
 }
 
 @media screen and (min-width: 1281px) {
