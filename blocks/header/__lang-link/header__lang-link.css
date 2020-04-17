@@ -1,0 +1,47 @@
+.header__lang-link {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #fff;
+  outline: none;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.header__lang-link:nth-of-type(1) {
+  margin-right: 18px;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+#ru:target {
+  border-bottom: 2px #fff solid;
+}
+
+#en:target {
+  border-bottom: 2px #fff solid;
+}
+
+@media screen and (min-width: 1281px) {
+
+  .header__lang-link {
+    font-size: 1.875vw;
+    line-height: 1.33;
+  }
+
+  .header__lang-link:nth-of-type(1) {
+    margin-right: 1.4vw;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+
+}

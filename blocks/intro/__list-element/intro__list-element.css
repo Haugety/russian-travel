@@ -1,0 +1,41 @@
+.intro__list-element {
+  max-width: 690px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+@media screen and (min-width: 1281px) {
+
+  .intro__list-element {
+    max-width: 53.9vw;
+    font-size: 0.94vw;
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+
+  .intro__list-element {
+    max-width: 720px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .intro__list-element {
+    max-width: 90vw;
+    font-size: 1.875vw;
+  }
+
+}
+
+@media screen and (max-width: 424px) {
+
+  .intro__list-element {
+    font-size: 3.75vw;
+  }
+
+}

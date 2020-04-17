@@ -1,0 +1,34 @@
+.footer__copyright {
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: right;
+  color: #fff;
+  margin: 0;
+}
+
+@media screen and (min-width: 1281px) {
+
+  .footer__copyright {
+    font-size: 1.09vw;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .footer__copyright {
+    font-size: 4.375vw;
+    line-height: 1;
+    text-align: start;
+  }
+
+}
+
+@media screen and (max-width: 424px) {
+
+  .footer__copyright {
+    font-size: 14px;
+  }
+
+}
+

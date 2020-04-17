@@ -1,0 +1,44 @@
+.photo-grid__list {
+  width: 92.5vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+}
+
+@media screen and (min-width: 1281px) {
+
+  .photo-grid__list{
+    grid-gap: 1.25vw;
+  }
+
+}
+
+@media screen and (max-width: 1279px) {
+
+  .photo-grid__list{
+    width: 90.625vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 14px;
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+
+  .photo-grid__list{
+    width: 93.75vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px;
+  }
+
+}
+
+@media screen and (max-width: 424px) {
+
+  .photo-grid__list{
+    width: 90vw;
+    grid-template-columns: 1fr;
+    grid-gap: 12px;
+  }
+
+}
