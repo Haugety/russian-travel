@@ -2,6 +2,7 @@
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
 @import url(./__list-element/intro__list-element.css);
+@import url(./__list-element/_type/intro__list-element_type_numbers.css);
 
 .intro {
   margin: 0 auto 92px 148px;
